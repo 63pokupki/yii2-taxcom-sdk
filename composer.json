@@ -1,0 +1,25 @@
+{
+    "name": "63pokupki/yii2-taxcom-sdk",
+    "description": "SDK gjl Yii2 для работы с API ОФД оператора taxcom.ru",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "^6.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Сундуков Алексей",
+            "email": "public-mail@alekciy.ru"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/63pokupki/yii2-taxcom-sdk/issues",
+        "source": "https://github.com/63pokupki/yii2-taxcom-sdk"
+    },
+    "autoload": {
+        "psr-4": {
+            "pokupki63\\Taxcom\\": ""
+        }
+    }
+}
